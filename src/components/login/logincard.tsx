@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Separator } from '@/components/ui/separator';
+import { Instagram } from 'lucide-react';
 
 interface LoginCardProps {
   className?: string;
@@ -23,12 +24,9 @@ const LoginCard: React.FC<LoginCardProps> = ({ className }) => {
   return (
     <Card className={cn('w-full max-w-sm border', className)}>
       <CardContent className="flex flex-col gap-4 p-8">
-        <h1
-          className="text-center text-5xl mb-4"
-          style={{ fontFamily: "'Lobster Two', cursive" }}
-        >
-          Instagram
-        </h1>
+        <div className="flex w-full justify-center mb-6">
+          <Instagram className="h-16 w-16" />
+        </div>
         <form className="space-y-3">
           <Input
             id="email"
