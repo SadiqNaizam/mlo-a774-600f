@@ -6,10 +6,10 @@
 
 @layer base {
   :root {
-    /* PRD: colorPalette.background: "#2196F3" */
-    --background: 207 90% 54%;
-    /* PRD: colorPalette.primaryText: "#000000" */
-    --foreground: 0 0% 0%;
+    /* PRD: colorPalette.background: "#F44336" */
+    --background: 4 90% 58%;
+    /* PRD: colorPalette.primaryText: "#FFFFFF" */
+    --foreground: 0 0% 100%;
 
     /* PRD: colorPalette.surface: "#FFFFFF" */
     --card: 0 0% 100%;
